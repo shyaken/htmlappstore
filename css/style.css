@@ -69,6 +69,9 @@ body{
 	border-color: #e1e8ed;
 }
 
+.media-heading {
+	font-weight: bold;
+}
 
 /****************************** BODY CSS ***************************/
 .category-list {
@@ -97,7 +100,7 @@ body{
 	font-size: 16px;
 }
 
-.category-list a{
+.category-list.category a{
 	padding: 15px 30px 15px 30px;
 	background-attachment: scroll;
 	background-clip: border-box;
@@ -106,6 +109,10 @@ body{
 	background-origin: padding-box;
 	background-size: auto;
 	display: block;
+}
+
+.category-list.suggested-app div{
+	margin: 11px 30px;
 }
 
 .category-list a.active{
