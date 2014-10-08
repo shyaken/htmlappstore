@@ -111,8 +111,13 @@ body{
 	display: block;
 }
 
-.category-list.suggested-app div{
+.category-list.suggested-app .media{
 	margin: 11px 30px;
+}
+
+.category-list.suggested-app .media-body{
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .category-list a.active{
